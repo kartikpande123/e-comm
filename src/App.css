@@ -1,0 +1,175 @@
+.navbar{
+  display: flex;
+  align-items: center;
+}
+.nav-ul{
+  display: flex;
+  gap: 30px;
+  padding: 15px;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.nav-ul li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-ul a:hover{
+  color: red;
+  font-size: 21px;
+}
+
+.navbar{
+  background-color: skyblue;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: skyblue;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.reghead {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  gap: 15px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #00bfff;
+  box-shadow: 0 0 5px rgba(0, 191, 255, 0.5);
+}
+
+button {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #008cba;
+}
+
+.logo{
+  width: 150px;
+  height: 100px;
+  padding-left: 5px;
+}
+
+.navright{
+  margin-left: 950px;;
+}
+
+.invalid{
+  font-size: 15px;
+  color: red;
+}
+
+.product-list {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.operations {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+}
+
+.operations a, .operations button {
+  display: inline-block;
+  width: 120px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #00bfff;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.operations a:hover, .operations button:hover {
+  color: red;
+  background-color: #008cba;
+  border: 1px solid #008cba;
+}
+
+.operations button {
+  cursor: pointer;
+  border: none;
+}
+
+.searchProduct{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 400px;
+}
+
