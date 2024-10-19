@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/e-comm/static/css/main.61d5231b.css",
+    "main.js": "/e-comm/static/js/main.9f1d7a0f.js",
+    "static/js/453.85036a5e.chunk.js": "/e-comm/static/js/453.85036a5e.chunk.js",
+    "static/media/logo.png": "/e-comm/static/media/logo.b47ebce8a80397c8ba99.png",
+    "index.html": "/e-comm/index.html",
+    "main.61d5231b.css.map": "/e-comm/static/css/main.61d5231b.css.map",
+    "main.9f1d7a0f.js.map": "/e-comm/static/js/main.9f1d7a0f.js.map",
+    "453.85036a5e.chunk.js.map": "/e-comm/static/js/453.85036a5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61d5231b.css",
+    "static/js/main.9f1d7a0f.js"
+  ]
+}
